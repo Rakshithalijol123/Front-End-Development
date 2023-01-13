@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Genos:wght@100;600&family=Indie+Flower&family=M+PLUS+1:wght@200&family=M+PLUS+Code+Latin:wght@300&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <title>Register</title>
+    <style>
+        body{
+            background-color: lightgray;
+        }
+        .container{
+            width: 800px;
+            height: 730px;
+            border: none;
+            box-shadow: 20px 20px grey;
+            border-radius: 7px;
+            font-size: 40px;
+            margin: auto;
+            text-align: center;
+            font-family: 'M PLUS Code Latin', sans-serif;
+            background-color: darkgrey;
+        }
+        pre{
+            font-family: 'M PLUS Code Latin', sans-serif;
+        }
+        #form{
+            font-family: 'M PLUS Code Latin', sans-serif;
+            font-size: 20px;
+            border-radius: 6px;
+            border: 0.1px solid gray;
+            color: black;
+        }
+        .check{
+            height: 32px;
+            width: 30px;
+        }
+        .btn{
+            color: black;
+            padding: 5px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>REGISTER FORM</h2>
+        <form action="" method="get">
+        <pre>Username         :   <input type="text" id="form"></pre>
+        <pre>D.O.B           :   <input type="date" id="form"></pre>
+        <pre>Password         :   <input type="password" id="form"></pre>
+        <pre>Confirm Password :   <input type="password" id="form"></pre>
+        <p>Sem         :   <select name="" id="form">
+            <option style="padding: 10px 20px;" value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select></p>
+        <p><input type="checkbox" check="checked" name="checkbox" class="check" id="form">  I agree</p>
+        <pre><input type="reset" class="btn" id="form" value="Reset">           <input class="btn" type="submit" id="form" value="Submit"></pre>
+    </form>
+            
+    </div>
+</body>
+</html>

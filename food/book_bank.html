@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Genos:wght@100;600&family=Indie+Flower&family=M+PLUS+1:wght@200&family=M+PLUS+Code+Latin:wght@300&family=Righteous&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Genos:wght@100;600&family=Indie+Flower&family=M+PLUS+1:wght@200&family=M+PLUS+Code+Latin:wght@300&family=Righteous&family=Roboto&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <title>Book Bank</title>
+    <style>
+        body{
+            background-color: darkgray;
+        }
+        .container{
+            width: 750px;
+            height: 100%;
+            border-radius: 7px;
+            margin: auto;
+            background-color: lightgray;
+        }
+        .book{
+            border: 1px solid black;
+            border-radius: 7px;
+            margin: 5px;
+            display: flex;
+            flex: left;
+        }
+        .img{
+            width: 330px;
+            height: 250px;
+            border-radius: 7px;
+            margin: 10px;
+        }
+        .img :hover{
+            box-shadow: 7px 7px gray;
+            border: none;
+            border-radius: 7px;
+            cursor: pointer;
+        }
+        .img img{
+            border-radius: 7px;
+            width: 330px;
+            height: 250px;
+        }
+        .author{
+            width: 350px;
+            height: 250px;
+            border-radius: 7px;
+            margin: 10px;
+            font-family: 'Righteous', cursive;
+        }
+        .author p{
+            text-align: center;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 style="font-size: 100px; text-align:center;font-family: 'Roboto Condensed', sans-serif;">BOOK BANK</h2>
+        <div class="book">
+            <div class="img">
+                <img src="book1.jpeg" alt="couldn't load">
+            </div>
+            <div class="author">
+                <p><u>Think and Grow Rich</u></p>
+                <p>Author Name : Steve Harvey</p>
+                <p>Book Id : 0001</p>
+            </div>
+        </div>
+        <div class="book">
+            <div class="img">
+                <img src="book2.jpeg" alt="couldn't load">
+            </div>
+            <div class="author">
+                <p><u>Harry Potter and the philosopher's stone</u></p>
+                <p>Author Name : J.K. Rowling</p>
+                <p>Book Id : 0002</p>
+            </div>
+        </div>
+        <div class="book">
+            <div class="img">
+                <img src="book3.jpeg" alt="couldn't load">
+            </div>
+            <div class="author">
+                <p><u>War and Peace</u></p>
+                <p>Author Name : Leo Tolstoy</p>
+                <p>Book Id : 0003</p>
+            </div>
+        </div>
+        <div class="book">
+            <div class="img">
+                <img src="book4.jpeg" alt="couldn't load">
+            </div>
+            <div class="author">
+                <p><u>Rich Dad Poor Dad</u></p>
+                <p>Author Name : Robert Kiyosaki</p>
+                <p>Book Id : 0004</p>
+            </div>
+        </div>
+        <div class="book">
+            <div class="img">
+                <img src="book5.jpeg" alt="couldn't load">
+            </div>
+            <div class="author">
+                <p><u>The Great Indian Novel</u></p>
+                <p>Author Name : Shashi Tharoor</p>
+                <p>Book Id : 0005</p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

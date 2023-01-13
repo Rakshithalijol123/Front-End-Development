@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+        <h1>First Year Students Details</h1>
+        <input type="text" name="name" placeholder="Enter Your Name"> <br>
+        <input type="text" name="usn" placeholder="USN"> <br>
+        <input type="text" name="branch" placeholder="Enter your Branch"> <br>
+        <input type="text" name="section" placeholder="Enter your section"> <br>
+        <input type="number" name="mbno" placeholder="Enter Your Mobile.No"> <br>
+        <input type="submit" value="Submit">
+
+
+    </form>
+    
+</body>
+</html>
